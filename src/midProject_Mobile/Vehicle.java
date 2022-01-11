@@ -1,13 +1,8 @@
 package midProject_Mobile;
 
 public abstract class Vehicle {
-	private String brand;
-	private String name;
-	private String license;
-	private int topSpeed;
-	private int gasCap;
-	private int wheel;
-	private String type;
+	private String brand, name, license, type, carOrBike;
+	private int topSpeed, gasCap, wheel, entertainmentSystem, helm;
 	
 	public String getBrand() {
 		return brand;
@@ -50,5 +45,23 @@ public abstract class Vehicle {
 	}
 	public void setType(String type) {
 		this.type = type;
+	}
+	public String getCarOrBike() {
+		return carOrBike;
+	}
+	public void setCarOrBike(String carOrBike) {
+		this.carOrBike = carOrBike;
+	}
+	public int getEntertainmentSystem() {
+		return entertainmentSystem;
+	}
+	public void setEntertainmentSystem(int entertainmentSystem) {
+		this.entertainmentSystem = entertainmentSystem;
+	}
+	public int getHelm() {
+		return helm;
+	}
+	public void setHelm(int helm) {
+		this.helm = helm;
 	}
 }

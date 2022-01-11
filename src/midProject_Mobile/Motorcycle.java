@@ -1,6 +1,6 @@
 package midProject_Mobile;
 
-public class Motorcycle {
+public class Motorcycle extends Vehicle{
 	private int helm;
 
 	public int getHelm() {
